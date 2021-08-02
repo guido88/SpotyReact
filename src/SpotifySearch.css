@@ -1,0 +1,19 @@
+.search {
+  padding: 1rem;
+  background-color: rgba(31, 141, 10, 0.747);
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+
+.albums {
+  padding: 1rem;
+  background-color: #096860;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}

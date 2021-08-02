@@ -7,7 +7,6 @@ const SearchInput = (props) => {
         <div className="search__control">
           <h1>Search Spotify New Releases</h1>
           <label htmlFor="album">Type in: </label>
-
           <input
             id="album"
             type="text"

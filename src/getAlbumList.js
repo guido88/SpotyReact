@@ -28,7 +28,6 @@ const getAlbumList = async (access_token) => {
     items = [...items, ...responseData.data.albums.items];
     next = responseData.data.albums.next;
   }
-  console.log(items);
 
   return items;
 };

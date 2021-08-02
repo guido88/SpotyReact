@@ -1,9 +1,9 @@
-import React, { useState, useEffect,Fragment } from "react";
+import React, { useState, useEffect, Fragment } from "react";
 import getToken from "./getToken";
 import getAlbumList from "./getAlbumList";
 import SearchInput from "./components/SearchInput";
 import AlbumList from "./components/AlbumList";
-import "./SpotifySearch.css"
+import "./SpotifySearch.css";
 
 const SpotifySearch = () => {
   const [albumList, setAlbumList] = useState([]);
@@ -36,12 +36,12 @@ const SpotifySearch = () => {
   };
 
   return (
-    <div>
-      <SearchInput  handleTypeIn={handleTypeIn} />
+    <Fragment>
+      <SearchInput handleTypeIn={handleTypeIn} />
       <div className="albums">
-      <AlbumList albums={filteredAlbums} />
+        <AlbumList albums={filteredAlbums} />
       </div>
-    </div>
+    </Fragment>
   );
 };
 

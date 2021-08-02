@@ -9,8 +9,6 @@ const Album = (props) => {
           <h2>{props.album.name} - {props.album.album_type}</h2>
           <div className="album-item__release"> Release date: {props.album.release_date}</div>
         </div>
-
-        {/* <p>Artists: {props.album.artists}</p> */}
       </div>
     </li>
   );

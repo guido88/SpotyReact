@@ -8,3 +8,7 @@
 <li>run npm install
 <li>run npm start
 <li>start typing in to find new releases on Spotify!
+  
+  
+  
+  ![image](https://user-images.githubusercontent.com/29124876/127868584-249a4df4-2d8d-4174-83d1-cc2d72ae8746.png)
